@@ -3,11 +3,11 @@ body{
 	font: 14px Helvetica, sans-serif;
 }
 
-div#info{
+#info{
 	margin-left: 40px;
 }
 
-div#status{
-	font: 18px Helvetica, sans-serif #cc0a00;
+#status{
+	font: 18px #cc0a00;
 	margin-left: 40px;
 }
