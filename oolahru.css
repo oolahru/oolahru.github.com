@@ -4,12 +4,13 @@ body{
 
 #info{
 	font: 14px Helvetica, sans-serif;
+	color: #333;
 	margin: 50px;
 }
 
 h3{
 	font: 16px;
-	color: #cc00000;
+	font-color: #cc0000;
 }
 
 h2{
