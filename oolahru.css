@@ -1,13 +1,14 @@
 body{
 	background-color: #e0e0e0;
-	font: 14px Helvetica, sans-serif #333;
+	font: 14px #333 Helvetica, sans-serif;
 }
 
 #info{
 	margin: 40px;
+	padding: 5px;
+	border: 1px solid #ccc;
 }
 
 #status{
-	font-size: 18px;
-	margin-left: 40px;
+	font-size: 18px #cc0000;
 }
