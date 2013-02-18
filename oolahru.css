@@ -2,3 +2,12 @@ body{
 	background-color: #e0e0e0;
 	font: 14px Helvetica, sans-serif;
 }
+
+.info{
+	margin-left: 40px;
+}
+
+.status{
+	font: 18px Helvetica, sans-serif #cc0a00;
+	margin-left: 40px;
+}
