@@ -1,10 +1,13 @@
 body{
 	background-color: #e0e0e0;
+}
+
+div{
 	font: Helvetica, sans-serif;
 }
 
 #info{
-	margin-left: 40px;
+	margin: 40px;
 	font: 14px #333;
 }
 
