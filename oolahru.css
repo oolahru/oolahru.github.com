@@ -3,17 +3,18 @@ body{
 }
 
 #info{
-	width: 200px;
+	width: 240px;
 	font: 14px Helvetica, sans-serif;
 	margin: 40px;
-	padding: 10px;
+	padding: 20px;
 	border: 1px solid #ccc;
 }
 
 h3{
-	font: 16px #cc0000;
+	font: 16px;
+	color: #cc00000;
 }
 
 h2{
-	font: 18px bold;
+	font: 18px;
 }
