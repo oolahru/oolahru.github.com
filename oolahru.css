@@ -3,11 +3,8 @@ body{
 }
 
 #info{
-	width: 240px;
 	font: 14px Helvetica, sans-serif;
-	margin: 40px;
-	padding: 20px;
-	border: 1px solid #ccc;
+	margin: 50px;
 }
 
 h3{
