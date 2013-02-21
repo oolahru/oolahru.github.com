@@ -8,11 +8,11 @@ body{
 	margin: 50px;
 }
 
-h3{
+#name{
 	font: 16px;
 	color: #cc0000;
 }
 
-h2{
+#status{
 	font: 18px;
 }
