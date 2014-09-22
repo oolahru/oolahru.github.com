@@ -105,12 +105,12 @@ a:hover { opacity:.8 }
 .page > .wrapper > .contacts > .profiles > li > a.pinterest { color:#fa4825; border-bottom:1px solid #fda492 }
 .page > .wrapper > .contacts > .profiles > li > a.linkedin { color:#3ba8cb; border-bottom:1px solid #9dd4e5 }
 
-.page > .wrapper > .own { float:left; clear:left; width:100%; margin-top:50px }
+.page > .wrapper > .own { float:left; clear:left; width:100%; margin-top:120px }
 .page > .wrapper > .own > .list { float:left; clear:left; width:100%; margin-top:20px }
 .page > .wrapper > .own > .list > li { display:block; float:left; margin-left:40px }
 .page > .wrapper > .own > .list > li:first-child { margin:0 }
 
-.page > .wrapper > .works { float:left; clear:left; width:100%; margin-top:100px }
+.page > .wrapper > .works { float:left; clear:left; width:100%; margin-top:120px }
 .page > .wrapper > .works > .list { float:left; clear:left; width:100%; margin-top:40px }
 .page > .wrapper > .works > .list > li { display:block; float:left; clear:left; width:100%; padding-bottom:40px; margin-bottom:40px; border-bottom:1px solid #cbcbcb }
 .page > .wrapper > .works > .list > li:last-child {  }
