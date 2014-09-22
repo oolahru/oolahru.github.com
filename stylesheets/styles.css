@@ -1,0 +1,137 @@
+/*
+     - Default Elements
+     - Fonts
+     - Global styles
+     - Header, actions, content and footer block styles
+*/
+
+
+
+
+
+/* default elements styles */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent }
+body { line-height:1 }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block }
+nav ul { list-style:none }
+blockquote, q { quotes:none }
+blockquote:before, blockquote:after { content:""; content:none }
+q:before, q:after { content:""; content:none}
+a { margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent }
+ins { background-color:#ffff99; color:#000; text-decoration:none }
+mark { background-color:#ffff99; color:#000; font-style:italic; font-weight:bold }
+del { text-decoration:line-through }
+abbr[title], dfn[title] { border-bottom:1px dotted; cursor:help }
+table { border-collapse:collapse; border-spacing:0 }
+hr { display:block; height:1px; border:0; border-top:1px solid #cccccc; margin:1em 0; padding:0 }
+input, select { vertical-align:middle }
+
+
+/* custom fonts */
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('../fonts/proxima_nova_regular.eot');
+    src: url('../fonts/proxima_nova_regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_regular.woff') format('woff'),
+         url('../fonts/proxima_nova_regular.ttf') format('truetype'),
+         url('../fonts/proxima_nova_regular.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_nova_ltsemibold';
+    src: url('../fonts/proxima_nova_semibold.eot');
+    src: url('../fonts/proxima_nova_semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_semibold.woff') format('woff'),
+         url('../fonts/proxima_nova_semibold.ttf') format('truetype'),
+         url('../fonts/proxima_nova_semibold.svg#proxima_nova_ltsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('../fonts/proxima_nova_bold.eot');
+    src: url('../fonts/proxima_nova_bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_bold.woff') format('woff'),
+         url('../fonts/proxima_nova_bold.ttf') format('truetype'),
+         url('../fonts/proxima_nova_bold.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* global */
+
+* { -webkit-font-smoothing:antialiased; -moz-font-smoothing:antialiased; -o-font-smoothing:antialiased; font-smoothing:antialiased }
+*:focus { outline:none }
+html, body { height:100% }
+body { font:16px/22px 'pf_centro_sans_proregular',Arial,serif; color:#333 }
+a { color:#000; -webkit-transition:all .2s linear; -moz-transition:all .2s linear; -o-transition:all .2s linear; -ms-transition:all .2s linear; transition:all .2s linear }
+a:hover { opacity:.8 }
+.hidden { display:none !important }
+
+
+/* header */
+
+.page { position:relative; float:left; width:100%; min-width:960px; background:#fff }
+.page > .wrapper { position:relative; width:640px; height:100%; margin:0 auto }
+
+.page > .wrapper h3.title { font:13px 'proxima_nova_rgbold',Arial,serif; color:#fa4825; text-transform:uppercase }
+.page > .wrapper .text { margin-top:12px; font:18px/24px 'proxima_nova_rgregular',Arial,serif; color:#333 }
+.page > .wrapper .text p { margin-bottom:12px }
+.page > .wrapper strong { font-family:'proxima_nova_ltsemibold',Arial,serif }
+.page > .wrapper h4 { font-family:'proxima_nova_rgbold',Arial,serif }
+.page > .wrapper .text a { color:#333; text-decoration:none; border-bottom:1px solid #999 }
+.page > .wrapper .text a.tel { border:none }
+
+
+.page > .wrapper > .logo { float:left; width:100%; margin-top:100px }
+
+.page > .wrapper > .about { float:left; clear:left; width:100%; margin-top:40px }
+.page > .wrapper > .about > .title { float:left; clear:left; width:100% }
+.page > .wrapper > .about > .text { float:left; clear:left; width:100% }
+.page > .wrapper > .about > .text .location { position:relative; margin-left:18px }
+.page > .wrapper > .about > .text .location:before { content:''; position:absolute; top:2px; left:-16px; width:11px; height:16px; background:url(../images/pin.png) no-repeat 0 0 }
+
+.page > .wrapper > .contacts { float:left; clear:left; width:100%; margin-top:50px }
+.page > .wrapper > .contacts > .profiles { float:left; clear:left; margin-top:15px }
+.page > .wrapper > .contacts > .profiles > li { display:block; float:left; margin-right:25px; font:18px/24px 'proxima_nova_rgregular',Arial,serif }
+.page > .wrapper > .contacts > .profiles > li > a { text-decoration:none }
+.page > .wrapper > .contacts > .profiles > li > a.medium { color:#333; border-bottom:1px solid #999 }
+.page > .wrapper > .contacts > .profiles > li > a.pinterest { color:#fa4825; border-bottom:1px solid #fda492 }
+.page > .wrapper > .contacts > .profiles > li > a.linkedin { color:#3ba8cb; border-bottom:1px solid #9dd4e5 }
+
+.page > .wrapper > .own { float:left; clear:left; width:100%; margin-top:50px }
+.page > .wrapper > .own > .list { float:left; clear:left; width:100%; margin-top:20px }
+.page > .wrapper > .own > .list > li { display:block; float:left; margin-left:40px }
+.page > .wrapper > .own > .list > li:first-child { margin:0 }
+
+.page > .wrapper > .works { float:left; clear:left; width:100%; margin-top:100px }
+.page > .wrapper > .works > .list { float:left; clear:left; width:100%; margin-top:40px }
+.page > .wrapper > .works > .list > li { display:block; float:left; clear:left; width:100%; padding-bottom:40px; margin-bottom:40px; border-bottom:1px solid #cbcbcb }
+.page > .wrapper > .works > .list > li:last-child {  }
+
+.page > .wrapper > .works > .list > li > .project { position:relative; float:left; width:100% }
+.page > .wrapper > .works > .list > li > .project > .logo { display:inline-block; vertical-align:middle }
+.page > .wrapper > .works > .list > li > .project > .year { display:inline-block; vertical-align:middle; margin:15px 0 0 20px; font:14px 'proxima_nova_rgregular',Arial,serif; color:#999 }
+.page > .wrapper > .works > .list > li > .project > .customer { position:absolute; bottom:10px; right:0; font:14px 'proxima_nova_rgregular',Arial,serif; color:#999; text-decoration:none }
+.page > .wrapper > .works > .list > li > .project > .customer > .for { float:left; margin:5px 10px 0 0 }
+
+.page > .wrapper > .works > .list > li > .title { float:left; clear:left; width:100%; margin-top:40px; font:24px 'proxima_nova_rgbold',Arial,serif; color:#333 }
+.page > .wrapper > .works > .list > li > .info { float:left; clear:left; width:100%; margin-top:0px; font:18px 'proxima_nova_rgregular',Arial,serif; color:#333 }
+.page > .wrapper > .works > .list > li > .text { float:left; clear:left; margin:15px 0 0 20px; font:14px/20px 'proxima_nova_rgregular',Arial,serif; color:#333 }
+.page > .wrapper > .works > .list > li > .text h4 { margin-top:20px }
+.page > .wrapper > .works > .list > li > .pages { float:left; clear:left; width:100%; margin-top:25px }
+.page > .wrapper > .works > .list > li > .pages > .caption { float:left; clear:left; width:100%; font:14px 'proxima_nova_rgregular',Arial,serif; color:#999 }
+.page > .wrapper > .works > .list > li > .pages > .img { float:left; clear:left; width:100%; margin-top:15px }
+.page > .wrapper > .works > .list > li > .recommendation { float:left; clear:left; width:100%; margin-top:35px }
+.page > .wrapper > .works > .list > li > .recommendation > .userpic { float:left; width:140px; min-height:1px; text-align:center }
+.page > .wrapper > .works > .list > li > .recommendation > .userpic img { max-width:100px; max-height:100px; border-radius:100px }
+.page > .wrapper > .works > .list > li > .recommendation > .outer { float:left; width:500px }
+.page > .wrapper > .works > .list > li > .recommendation > .outer > .name { font:18px 'proxima_nova_rgbold',Arial,serif; color:#333 }
+.page > .wrapper > .works > .list > li > .recommendation > .outer > .position { font:14px/20px 'proxima_nova_rgregular',Arial,serif; color:#fa4825 }
+.page > .wrapper > .works > .list > li > .recommendation > .outer > .text { margin-top:10px; font:14px/20px 'proxima_nova_rgregular',Arial,serif; color:#333 }
