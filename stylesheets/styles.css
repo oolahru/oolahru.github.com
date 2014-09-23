@@ -104,7 +104,7 @@ a:hover { opacity:.8 }
 
 .page > .wrapper > .own { float:left; clear:left; width:100%; margin-top:120px }
 .page > .wrapper > .own > .list { float:left; clear:left; width:100%; margin-top:20px }
-.page > .wrapper > .own > .list > li { display:block; float:left; margin-left:40px }
+.page > .wrapper > .own > .list > li { display:block; float:left; margin-left:40px; cursor:default }
 .page > .wrapper > .own > .list > li:first-child { margin:0 }
 
 .page > .wrapper > .works { float:left; clear:left; width:100%; margin-top:120px }
