@@ -81,7 +81,7 @@ a:hover { opacity:.8 }
 .page > .wrapper .text { margin-top:12px; font:18px/24px 'proxima_nova_rgregular',Arial,serif; color:#333 }
 .page > .wrapper .text p { margin-bottom:12px }
 .page > .wrapper strong { font-family:'proxima_nova_ltsemibold',Arial,serif }
-.page > .wrapper h4 { font-family:'proxima_nova_rgbold',Arial,serif }
+.page > .wrapper h4 { font-family:'proxima_nova_rgregular',Arial,serif }
 .page > .wrapper .text a { color:#333; text-decoration:none; border-bottom:1px solid #999 }
 .page > .wrapper .text a.tel { border:none }
 
@@ -102,9 +102,9 @@ a:hover { opacity:.8 }
 .page > .wrapper > .contacts > .profiles > li > a.pinterest { color:#fa4825; border-bottom:1px solid #fda492 }
 .page > .wrapper > .contacts > .profiles > li > a.linkedin { color:#3ba8cb; border-bottom:1px solid #9dd4e5 }
 
-.page > .wrapper > .own { float:left; clear:left; width:100%; margin-top:120px }
+.page > .wrapper > .own { float:left; clear:left; width:100%; margin-top:120px; cursor:default }
 .page > .wrapper > .own > .list { float:left; clear:left; width:100%; margin-top:20px }
-.page > .wrapper > .own > .list > li { display:block; float:left; margin-left:40px; cursor:default }
+.page > .wrapper > .own > .list > li { display:block; float:left; margin-left:40px }
 .page > .wrapper > .own > .list > li:first-child { margin:0 }
 
 .page > .wrapper > .works { float:left; clear:left; width:100%; margin-top:120px }
