@@ -98,6 +98,7 @@ a:hover { opacity:.8 }
 .page > .wrapper > .contacts > .profiles { float:left; clear:left; margin-top:15px }
 .page > .wrapper > .contacts > .profiles > li { display:block; float:left; margin-right:25px; font:18px/24px 'proxima_nova_rgregular',Arial,serif }
 .page > .wrapper > .contacts > .profiles > li > a { text-decoration:none }
+.page > .wrapper > .contacts > .profiles > li > a.twitter { color:#59adeb; border-bottom:1px solid #abd2ef }
 .page > .wrapper > .contacts > .profiles > li > a.medium { color:#333; border-bottom:1px solid #999 }
 .page > .wrapper > .contacts > .profiles > li > a.pinterest { color:#fa4825; border-bottom:1px solid #fda492 }
 .page > .wrapper > .contacts > .profiles > li > a.linkedin { color:#3ba8cb; border-bottom:1px solid #9dd4e5 }
@@ -109,11 +110,11 @@ a:hover { opacity:.8 }
 
 .page > .wrapper > .works { float:left; clear:left; width:100%; margin-top:120px }
 .page > .wrapper > .works > .list { float:left; clear:left; width:100%; margin-top:40px }
-.page > .wrapper > .works > .list > li { display:block; float:left; clear:left; width:100%; padding-bottom:60px; margin-bottom:60px; border-bottom:1px solid #cbcbcb }
+.page > .wrapper > .works > .list > li { display:block; float:left; clear:left; width:100%; padding-bottom:60px; margin-bottom:60px; border-bottom:1px solid #eeeeee }
 .page > .wrapper > .works > .list > li:last-child {  }
 
 .page > .wrapper > .works > .list > li > .project { position:relative; float:left; width:100% }
-.page > .wrapper > .works > .list > li > .project > .logo { display:inline-block; vertical-align:middle }
+.page > .wrapper > .works > .list > li > .project > .logo { display:inline-block; vertical-align:middle; cursor:default }
 .page > .wrapper > .works > .list > li > .project > .year { display:inline-block; vertical-align:middle; margin:15px 0 0 20px; font:14px 'proxima_nova_rgregular',Arial,serif; color:#999 }
 .page > .wrapper > .works > .list > li > .project > .customer { position:absolute; bottom:10px; right:0; font:14px 'proxima_nova_rgregular',Arial,serif; color:#999; text-decoration:none }
 .page > .wrapper > .works > .list > li > .project > .customer > .for { float:left; margin:5px 10px 0 0 }
