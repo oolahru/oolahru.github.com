@@ -113,11 +113,12 @@ a:hover { opacity:.8 }
 .page > .wrapper > .works > .list > li { display:block; float:left; clear:left; width:100%; padding-bottom:60px; margin-bottom:60px; border-bottom:1px solid #eeeeee }
 .page > .wrapper > .works > .list > li:last-child {  }
 
-.page > .wrapper > .works > .list > li > .project { position:relative; float:left; width:100% }
+.page > .wrapper > .works > .list > li > .project { display:table; position:relative; float:left; width:100% }
 .page > .wrapper > .works > .list > li > .project > .logo { display:inline-block; vertical-align:middle; cursor:default }
-.page > .wrapper > .works > .list > li > .project > .year { display:inline-block; vertical-align:middle; margin:15px 0 0 20px; font:14px 'proxima_nova_rgregular',Arial,serif; color:#999 }
-.page > .wrapper > .works > .list > li > .project > .customer { position:absolute; bottom:10px; right:0; font:14px 'proxima_nova_rgregular',Arial,serif; color:#999; text-decoration:none }
-.page > .wrapper > .works > .list > li > .project > .customer > .for { float:left; margin:5px 10px 0 0 }
+.page > .wrapper > .works > .list > li > .project > .year { display:inline-block; vertical-align:middle; margin:0 0 0 20px; font:14px/20px 'proxima_nova_rgregular',Arial,serif; color:#999 }
+.page > .wrapper > .works > .list > li > .project > .customer { display: table-cell; vertical-align: middle; font:14px 'proxima_nova_rgregular',Arial,serif; color:#999; text-decoration:none }
+.page > .wrapper > .works > .list > li > .project > .customer > .for { float:right; line-height:22px; margin: 0 10px 0 0 }
+.page > .wrapper > .works > .list > li > .project > .customer > img { float:right }
 
 .page > .wrapper > .works > .list > li > .title { float:left; clear:left; width:100%; margin-top:40px; font:24px 'proxima_nova_rgbold',Arial,serif; color:#333 }
 .page > .wrapper > .works > .list > li > .info { float:left; clear:left; width:100%; margin-top:0px; font:18px 'proxima_nova_rgregular',Arial,serif; color:#333 }
