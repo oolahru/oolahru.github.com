@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<head>
+    <meta title="GSS" />
+    <meta charset="utf-8" />
+    <script src="gss.js"></script>
+    <style>
+        head, body {
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden;
+        }
+        header {
+            background: red;
+        }
+        footer {
+            background: orange;
+        }
+        article {
+            background: blue;   
+        }
+        aside {
+            background: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <script>new GSS(document)</script>
+    <style type="text/gss">
+        @v |(header)-10-(main)~(footer) in(::window) {
+            width: == ::window[width];
+        }
+        header {
+            height: == 100;
+        }
+        main {
+            @v |(& article)-...| in(&);
+            @h |(article)| in(&);
+        }
+        footer {
+            height: == 100;
+            bottom: == ::window[bottom] !weak;
+        }
+        article {
+            height: == &[intrinsic-height];
+        }
+    </style>
+    <header>Хидер</header>
+    <main>
+        <article>Xamarin apps are built with standard, native user interface controls. Apps not only look the way the end user expects, they behave that way too.</article>
+        <article>Xamarin apps have access to the full spectrum of functionality exposed by the underlying platform and device, including platform-specific capabilities like iBeacons and Android Fragments.</article>
+        <article>Xamarin apps leverage platform-specific hardware acceleration, and are compiled for native performance. This can’t be achieved with solutions that interpret code at runtime.</article>
+        <article>C# uses type inference to give developers more safety in fewer keystrokes, without boilerplate or verbose type annotations.</article>
+    </main>
+    <aside></aside>
+    <footer>Футер</footer>
+</body>
