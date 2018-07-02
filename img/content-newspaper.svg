@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="20px" viewBox="0 0 19 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>content-newspaper</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="openvz_static_page" transform="translate(-831.000000, -615.000000)">
+            <g id="quick-installation" transform="translate(553.000000, 608.000000)">
+                <g id="content-newspaper" transform="translate(276.000000, 5.000000)">
+                    <g id="Frame_-_24px">
+                        <rect id="Rectangle-path" x="0" y="0.002" width="24" height="24"></rect>
+                    </g>
+                    <g id="Filled_Icons" transform="translate(2.000000, 2.000000)" fill="#757575" fill-rule="nonzero">
+                        <path d="M18,0.001 L1,0.001 C0.447,0.001 0,0.449 0,1.001 L0,19.001 C0,19.553 0.447,20.001 1,20.001 L18,20.001 C18.553,20.001 19,19.553 19,19.001 L19,1.001 C19,0.45 18.553,0.001 18,0.001 Z M9,17.001 L3,17.001 L3,15.001 L9,15.001 L9,17.001 Z M9,14.001 L3,14.001 L3,12.001 L9,12.001 L9,14.001 Z M9,11.002 L3,11.002 L3,9.002 L9,9.002 L9,11.002 Z M16,17.001 L10,17.001 L10,15.001 L16,15.001 L16,17.001 Z M16,14.001 L10,14.001 L10,12.001 L16,12.001 L16,14.001 Z M16,11.002 L10,11.002 L10,9.002 L16,9.002 L16,11.002 Z M16,6.002 L3,6.002 L3,3.002 L16,3.002 L16,6.002 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
